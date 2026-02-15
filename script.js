@@ -1,3 +1,4 @@
+console.log("Script loaded successfully");
 const BASE_URL = "https://health-backend-xxxx.onrender.com";
 // Function to switch between "subspaces" (Login, Patient, Doctor)
 function showPage(pageId) {
@@ -47,4 +48,5 @@ function loadDoctorData() {
             <td><button class="btn-small">Prioritize</button></td>
         </tr>
     `).join('');
+
 }
